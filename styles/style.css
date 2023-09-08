@@ -11,6 +11,7 @@ html {
 .page {
   max-width: 1200px;
   height: 100%;
+  padding: 133px 30px;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -18,9 +19,9 @@ html {
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 h1,
@@ -57,10 +58,10 @@ ol {
 
 .content {
   display: flex;
+  margin: auto;
   align-items: end;
   gap: 30px;
   max-width: 1140px;
-  margin: 133px 30px;
 }
 
 .result {
