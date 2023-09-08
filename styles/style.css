@@ -19,9 +19,9 @@ html {
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 }
 
 h1,
@@ -58,13 +58,9 @@ ol {
 
 .content {
   display: flex;
-  margin: auto;
   align-items: end;
   gap: 30px;
   max-width: 1140px;
-}
-
-.result {
 }
 
 .result__video-container {
@@ -253,9 +249,6 @@ ol {
   display: grid;
   grid-template-columns: 1fr min-content;
   align-content: start;
-}
-
-.content__video-card-description-container {
 }
 
 .content__video-card-title {
