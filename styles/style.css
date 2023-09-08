@@ -12,7 +12,6 @@ html {
   max-width: 1200px;
   max-height: 800px;
   margin: auto;
-  padding: 133px 30px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -59,6 +58,7 @@ ol {
   align-items: end;
   gap: 30px;
   max-width: 1140px;
+  margin: 133px 30px;
 }
 
 .result {
