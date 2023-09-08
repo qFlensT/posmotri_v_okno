@@ -9,17 +9,15 @@ html {
 }
 
 .page {
-  max-width: 1200px;
-  height: 100%;
   padding: 133px 30px;
+  display: flex;
+  inline-size: 1200px;
+  block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  inline-size: 1200px;
-  block-size: 100%;
-  display: flex;
 }
 
 h1,
