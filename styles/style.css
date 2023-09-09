@@ -133,7 +133,13 @@ ol {
 }
 
 .search-form__textfield:active {
-  border: none;
+  border: 1px solid #fff;
+}
+
+@supports selector(:has(*)) {
+  .search-form__textfield:active {
+    border: none;
+  }
 }
 
 .search-form__textfield:focus {
